@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1 {
+  display: inline-block !important;
+}
+
+main,
+footer {
+  text-align: center;
+}
+
+main h1 {
+  padding-top: 50vh;
+}
+
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar h1 {
+  margin-left: 5rem;
+}
+
+.navbar .d-inline-block {
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-left: 53rem;
+}
+
+.navbar .nav-link:not(:first-child) {
+  margin-left: .5rem;
+}
+
+.container {
+  height: 100vh;
+}
+
+#about {
+  background-color: #555;
+}
+
+#portfolio {
+  background-color: #ccc;
+}
+
+#contact {
+  background-color: #999;
+}
