@@ -1,0 +1,13 @@
+{
+  "name": "smoothie-js",
+  "version": "1.0.0",
+  "description": "A vanilla smooth-scrolling javascript plugin with no dependencies.",
+  "main": "dist/smoothie.js",
+  "repository": "marlospomin/smoothie",
+  "author": "Marlos Pomin",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
