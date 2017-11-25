@@ -83,7 +83,6 @@ If your browser is not in the list consider using a polyfill.
 * [ ] Make tests before refactoring.
 * [ ] Refactor to use methods and functions.
 * [ ] Add polyfill to non-supported browsers.
-* [ ] Make it work on Edge.
 * [ ] Add options to the plugin.
 * [ ] Refactor to remove bad code practices.
 
