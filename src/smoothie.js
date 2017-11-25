@@ -19,7 +19,7 @@ export default function () {
   // Save the href value
   let link;
   // For each element get href value
-  elements.forEach((element) => {
+  Array.from(elements).forEach((element) => {
     // Save the href value from each element
     link = element.getAttribute('href');
     // Wrap as a closure

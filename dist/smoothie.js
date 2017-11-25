@@ -23,7 +23,7 @@
     // Save the href value
     var link = void 0;
     // For each element get href value
-    elements.forEach(function (element) {
+    Array.from(elements).forEach(function (element) {
       // Save the href value from each element
       link = element.getAttribute('href');
       // Wrap as a closure
