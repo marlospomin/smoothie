@@ -1,12 +1,28 @@
 {
   "name": "smoothie-js",
-  "version": "1.0.0",
   "description": "A vanilla smooth-scrolling javascript plugin with no dependencies.",
+  "version": "1.0.0",
+  "author": "Marlos Pomin",
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "smooth",
+    "scroll",
+    "smooth-scrolling",
+    "scrolling",
+    "performance",
+    "lightweight",
+    "no dependencies"
+  ],
+  "license": "MIT",
   "main": "dist/smoothie.js",
   "repository": "marlospomin/smoothie",
-  "author": "Marlos Pomin",
-  "license": "MIT",
-  "private": true,
+  "scripts": {
+    "gulp": "gulp",
+    "build": "gulp build",
+    "reload": "gulp reload"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.2.1",
