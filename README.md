@@ -38,7 +38,7 @@ Alternatively you can include a minified version of smoothie (or the source code
 
 ## Usage
 
-Add ```data-smoothie``` to your anchor tags alongside the link to the element ```id``` in the *href* value as it follows below.
+Add ```data-smoothie``` to your anchor tags and the target's ```id``` in the *href* value as it follows below.
 
 ``` html
 <a data-smoothie href="#example">...</a>
