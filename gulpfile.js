@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 const rename = require("gulp-rename");
+const karma = require('karma').Server;
 const uglify = require('gulp-uglifyjs');
 const browserSync = require('browser-sync');
 
@@ -28,6 +29,17 @@ gulp.task('reload', function() {
     .pipe(uglify())
     .pipe(rename('smoothie.min.js'))
     .pipe(gulp.dest('./example/js'))
+});
+
+// Test task
+gulp.task('test', function (done) {
+  new karma({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: true
+  }, function (exitCode) {
+    done();
+    process.exit(exitCode);
+  }).start();
 });
 
 // Build task
