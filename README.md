@@ -18,7 +18,7 @@ npm install smoothie-js
 yarn add smoothie-js
 ```
 
-Now include turtle and you should be good to go.
+Now include smoothie and you should be good to go.
 
 ``` js
 // es6
