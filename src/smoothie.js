@@ -1,18 +1,3 @@
-// Get element via custom tag - OK
-// Get href value from target - OK
-// Create an event listener on click - OK
-// Upon click slideIntoView smoothly - OK
-// If slideIntoView is not supported use polyfill
-// Add custom options for behavior and custom tag
-
-// Make sure hash is correct - OK
-// Update polyfill to es6 if possible
-// Test headlessly with karma and mocha
-// Refactor to use methods and functions
-// Refactor the hash change method if needed
-// Refactor to remove closure and overall cleanup
-
-// Actual plugin
 export default function () {
   // Get the elements marked for smooth scrolling
   const elements = document.querySelectorAll('[data-smoothie]');
