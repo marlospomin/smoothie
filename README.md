@@ -84,7 +84,7 @@ If your browser is not in the list consider using a polyfill.
 * [ ] Refactor to use methods and functions.
 * [ ] Add polyfill to non-supported browsers.
 * [ ] Add options to the plugin.
-* [ ] Refactor to remove bad code practices.
+* [x] Refactor to remove bad code practices.
 
 **Legend**: Checked boxes mean *__partial__* completion, checked and ~~crossed~~ items mean they're *__fully__* working.
 
