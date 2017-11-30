@@ -34,8 +34,7 @@ gulp.task('reload', function() {
 // Test task
 gulp.task('test', function (done) {
   new karma({
-    configFile: __dirname + '/karma.conf.js',
-    singleRun: true
+    configFile: __dirname + '/karma.conf.js'
   }, function (exitCode) {
     done();
     process.exit(exitCode);
