@@ -8,6 +8,10 @@
 * Lightweight.
 * No dependencies.
 
+## Demo
+
+Example page on codepen (temporary), check the pen [here](https://codepen.io/marlospomin/pen/jadaQB).
+
 ## Install
 
 ``` bash
