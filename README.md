@@ -1,4 +1,4 @@
-# Smoothie.js [![Build Status](https://travis-ci.com/marlospomin/smoothie.svg?token=PosttrboZuYSHkXP2Lm8&branch=master)](https://travis-ci.com/marlospomin/smoothie)
+# Smoothie.js [![Build Status](https://travis-ci.org/marlospomin/smoothie.svg?branch=master)](https://travis-ci.org/marlospomin/smoothie)
 
 > A vanilla smooth-scrolling javascript plugin with no dependencies.
 
