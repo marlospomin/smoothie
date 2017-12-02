@@ -84,8 +84,6 @@ If your browser is not in the list consider using a polyfill.
 ### Todo List
 
 * [ ] Make a better example page.
-* [ ] Make tests before refactoring.
-* [ ] Refactor to use methods and functions.
 * [ ] Add polyfill to non-supported browsers.
 * [ ] Add options to the plugin.
 * [x] Refactor to remove bad code practices.
