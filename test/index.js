@@ -32,7 +32,7 @@ describe('smoothie', () => {
       anchor.click();
       // Hack to make it work, scrollIntoView is bugged somehow when testing
       // Trying to find a solution
-      window.scrollBy({ top: 100 });
+      window.scroll(0, 1);
       // Assertion
       assert.notEqual(window.pageYOffset, 0);
     });
