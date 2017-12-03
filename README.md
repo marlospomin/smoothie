@@ -61,6 +61,17 @@ Call smoothie's function anywhere in your code:
 smoothie();
 ```
 
+## Configuring
+
+To configure the plugin pass the desired option(s) as an object like the example below:
+
+``` js
+// Pass options like this
+smoothie({
+  behavior: 'auto'
+});
+```
+
 ## Running Tasks
 
 You can run tasks with ```yarn``` or ```npm``` shorthands using the following commands:
@@ -85,7 +96,7 @@ If your browser is not in the list consider using a polyfill.
 
 * [ ] Make a better example page.
 * [ ] Add polyfill to non-supported browsers.
-* [ ] Add options to the plugin.
+* [x] Add options to the plugin.
 * [x] Refactor to remove bad code practices.
 
 **Legend**: Checked boxes mean *__partial__* completion, checked and ~~crossed~~ items mean they're *__fully__* working.
