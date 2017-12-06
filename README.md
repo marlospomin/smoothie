@@ -32,7 +32,7 @@ import smoothie from 'smoothie'
 const smoothie = require('smoothie');
 ```
 
-Alternatively you can include a minified version of smoothie (or the source code, up to you) via direct file or using our **CDN** link.
+Alternatively you can include a minified version of smoothie (or the source code, up to you) via direct file or using our **CDN** link. If you are using a polyfill make sure to include it **before** smoothie.
 
 ``` html
 <body>
@@ -88,14 +88,14 @@ $ ...
 
 You can check the browsers supported [here](https://caniuse.com/#search=scrollIntoView).
 
-If your browser is not in the list consider using a polyfill.
+If your browser is not in the list consider using this [polyfill](https://github.com/iamdustan/smoothscroll) from Dustan Kasten.
 
 ## Roadmap
 
 ### Todo List
 
 * [ ] Make a better example page.
-* [ ] Add polyfill to non-supported browsers.
+* [x] Add polyfill to non-supported browsers.
 * [x] Add options to the plugin.
 * [x] Refactor to remove bad code practices.
 
