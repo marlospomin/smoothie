@@ -22,10 +22,8 @@
 
     // Push defaults into config object
     config = _extends({}, defaultConfig, config);
-
     // Get the elements marked for smooth scrolling
     var elements = document.querySelectorAll('[data-smoothie]');
-
     // For each element get href value
     Array.from(elements).forEach(function (element) {
       // Save the href value from each element
