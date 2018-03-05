@@ -95,9 +95,6 @@ If your browser is not in the list consider using this [polyfill](https://github
 ### Todo List
 
 * [ ] Make a better example page.
-* [x] Add polyfill to non-supported browsers.
-* [x] Add options to the plugin.
-* [x] Refactor to remove bad code practices.
 
 **Legend**: Checked boxes mean *__partial__* completion, checked and ~~crossed~~ items mean they're *__fully__* working.
 
