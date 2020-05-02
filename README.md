@@ -26,18 +26,10 @@ Now include smoothie in your project and you should be good to go.
 
 ```js
 // es6
-import smoothie from 'smoothie'
+import smoothie from '@marlospomin/smoothie'
 
 // commonjs
-const smoothie = require('smoothie')
-```
-
-Alternatively you can include the script directly using the **CDN** link. If you are using a polyfill make sure to include it **before** the script import.
-
-```html
-<body>
-  <script src="https://unpkg.com/@marlospomin/smoothie"></script>
-</body>
+const smoothie = require('@marlospomin/smoothie')
 ```
 
 ## Usage
@@ -56,7 +48,7 @@ Add ```data-smoothie``` to your anchor tags and the target's ```id``` in the *hr
 
 Call smoothie anywhere in your code:
 
-``` js
+```js
 // Call me
 smoothie()
 ```
@@ -65,7 +57,7 @@ smoothie()
 
 To configure the plugin just pass the desired option(s) as an object like the example below:
 
-``` js
+```js
 // Pass options like this
 smoothie({
   behavior: 'auto'
